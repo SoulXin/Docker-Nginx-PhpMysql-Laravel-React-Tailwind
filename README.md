@@ -13,5 +13,5 @@ version:
 
 localhost:8088
 
-docker-composer up -d => Run
-docker-composer down => Stop
+1. Run docker => docker-composer up -d
+2. Stop docker => docker-composer down
