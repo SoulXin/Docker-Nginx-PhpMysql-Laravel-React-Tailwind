@@ -2,8 +2,11 @@ step:
 1. docker-compose build
 2. docker-compose up -d
 3. cd src
-4. composer install
-5. npm install
+4. npm install
+5. docker exec -it php bash
+6. composer install
+7. cp .env.example .env
+8. php artisan key:generate
 
 version:
 1. nginx 1.20.2
